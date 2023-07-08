@@ -1,6 +1,5 @@
 import React from 'react';
 import { useMutation, useQuery } from "@apollo/client";
-import { QUERY_ME } from "../utils/queries"; 
 import { REMOVE_BOOK} from "../utils/mutations";
 import {
   Container,
@@ -13,8 +12,17 @@ import {
 import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
+import { useParams } from 'react-router-dom';
+
+import { GET_ME } from "../utils/queries"; 
+
 const SavedBooks = () => {
-  const { loading, data } = useQuery(QUERY_ME);
+
+  const { username } = useParams();
+
+  const { loading, data } = useQuery(GET_ME, {
+    variables: {username: username},
+  });
 
   const [removeBook] = useMutation(REMOVE_BOOK);
   
