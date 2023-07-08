@@ -21,7 +21,7 @@ const SavedBooks = () => {
   const userData = data?.me || {};
   
   if (loading) {
-    return <div>Loading...</div>;
+    return <div>LOADING...</div>;
   }
 
   // create function that accepts the book's mongo _id value as param and deletes the book from the database
