@@ -25,7 +25,8 @@
   </a>
 
   ## Contributors
-  https://github.com/DaelenWall/CTNestQuest (My groups project 3 assignment used as resource for server.js)
+  https://github.com/DaelenWall/CTNestQuest 
+  (My groups project 3 assignment we are working on. Used as resource for server.js, typedefs, and resolvers)
   Used old class assignments as a resource.
 
   ### Contact Me: 
