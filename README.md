@@ -15,12 +15,12 @@
 
   ## Usage
 
-    Follow the link below to the website.
-    Once there click on the login/signup in the corner to create a new account.
-    Then use the searchbar to look for books, if you find any you like click "save this book" so you can find it easily later.
-    This list is found under the corner under see your books
+  Follow the link below to the website.
+  Once there click on the login/signup in the corner to create a new account.
+  Then use the searchbar to look for books, if you find any you like click "save this book" so you can find it easily later.
+  This list is found under the corner under see your books
 
-     <a href="https://challenge-11-note-taker-mb-3d17b293aef1.herokuapp.com/notes">
+  <a href="https://challenge-11-note-taker-mb-3d17b293aef1.herokuapp.com/notes">
   My Application
   </a>
 
